@@ -1,0 +1,246 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: poppins;
+  }
+
+/* //////Home Page///// */
+
+#home-page{
+    /* height: 800px; */
+    min-height: 100vh;
+    background-color: rgb(241,252,229);
+}
+
+#nav{
+    height: 76px;
+    position: relative;
+}
+
+#main-info{
+    padding: 1.6rem 4rem;
+    display: grid;
+    grid-template-columns: 1fr 4fr repeat(5,1fr);
+    align-items: center;
+    justify-content: center;
+    grid-column-gap: 2.5rem;
+    grid-auto-columns: max-content;
+    align-self: start;
+}
+
+.vk-logo img{
+    margin-left: 20px;
+    justify-content: center;
+    height: 3.6rem;
+    width: 3.8rem;
+    transform: rotate(45deg);
+    transition: all .15s linear;
+}
+
+li.vk-logo{ cursor: pointer; }
+
+.vk-logo img:hover{
+    transform: rotate(0deg);
+    opacity: 0.5;
+}
+
+#home-info{
+    display:grid;
+ 
+}
+
+.info{
+    font-size: 2.2rem;
+    font-weight:600;
+    letter-spacing: .3px;
+}
+
+.info-logo{
+    height: 60px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    font-size: 2.6rem;
+    justify-content: center;
+}
+
+.github{
+    padding-left: 3rem;
+}
+
+#content{
+    display: grid;
+    grid-template-columns: 800px;
+    font-size: 9rem;
+    justify-content: center;
+    font-weight: 500;
+    justify-content: flex-start;
+    padding: 20rem 0rem 16rem 26rem;
+    letter-spacing: -6px;
+    word-spacing: 2px;
+    border-color: bisque;
+}
+
+/* ////About Page///// */
+
+#about-page{
+    min-height: 100vh;
+}
+
+#about-content{
+    display: flex;
+    flex-direction: column;
+    padding: 16rem 8rem;
+}
+
+.about{
+    font-size:5.6rem ;
+    font-weight: 500;
+    letter-spacing: -4px;
+    margin-bottom: 6rem;
+    padding-top: 2.2rem;
+    border-top: 2px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.content{
+    font-size: 2.4rem;
+    letter-spacing: -1px;
+    font-weight: 300;
+}
+
+.content.mar{
+    font-size: 3.2rem;
+    margin-right: 10rem;
+    font-weight:400;
+}
+
+.about-main{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+/* //////Portfolio section/////// */
+
+#portfolio{
+    min-height: 100vh;
+}
+
+.work{
+    font-size:6rem;
+    margin-bottom: 8rem;
+    padding-top: 2.2rem;
+    font-weight: 450;
+    letter-spacing: -4px;
+    border-top: 2px solid black;
+}
+
+#work-images{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding-left: 2rem;
+}
+
+.work-pics-img{
+    width: 95%;
+    border-radius: 5px;
+}
+
+.work-pics .pb{
+    padding-bottom: 7rem;
+}
+
+.img-detail {
+    font-size: 2.4rem;
+    font-weight: 500;
+    letter-spacing: -1px;
+    padding-top: 1.2rem;
+}
+
+.img-detail-p{
+    font-size: 2.4rem;
+    letter-spacing: -1px;
+    font-weight: 300;
+}
+
+
+
+
+/* /////Contact Me Page */
+
+#contact-me{
+    min-height: 100vh;
+    /* display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 8rem;
+    grid-column-gap: 6.4rem; */
+}
+
+.padding-side{
+    padding: 16rem 8rem 8rem 8rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.connect h1{
+    font-size:6rem;
+    letter-spacing: -4px;
+    border-top: 2px solid black;
+    margin-bottom: 6rem;
+    padding-top: 2.2rem;
+    font-weight: 400;
+}
+
+.project-mind h1{
+    font-size: 7.6rem;
+    font-weight: 450;
+    letter-spacing: -4px;
+    margin-bottom: 4rem;
+}
+
+.chat-socials{
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+.chat h1{
+font-size: 2.4rem;
+font-weight: 400;
+letter-spacing: .009em;
+}
+.chat{
+    
+    padding-right: 16rem;
+}
+
+.top{
+    margin-bottom: 2rem;
+}
+
+.socials{
+display: flex;
+flex-direction: column;
+}
+
+.social-media{
+    font-size: 3.2rem;
+    font-weight: 550;
+    text-decoration: underline #e9ecef;
+    margin-bottom: 4px;
+}
+
+.copyright{
+    font-size: 1.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 8rem;
+    color: #adb5bd;
+}
